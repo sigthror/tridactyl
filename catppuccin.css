@@ -1,20 +1,20 @@
 :root {    /* Catppuccin Mocha Colors (Customized) */
     --bg: #1e1e2e;
-    --currentline: #302D41;
-    --fg: #d9e0ee;
-    --comment: #575268;
+    --currentline: #181825;
+    --fg: #cdd6f4;
+    --comment: #6c7086;
     --flamingo: #f2cdcd;
-    --mauve: #ddb6f2;
+    --mauve: #cba6f7;
     --pink: #f5c2e7;
-    --maroon: #e8a2af;
-    --red: #f28fad;
-    --peach: #f8bd96;
-    --yellow: #fae3b0;
-    --green: #abe9b3;
-    --teal: #b5e8e0;
-    --blue: #96cdfb;
+    --maroon: #eba0ac;
+    --red: #f38ba8;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --blue: #89b4fa;
     --sky: #89dceb;
-    --lavender: #c9cbff;
+    --lavender: #b4befe;
     --rosewater: #f5e0dc;
 
     --font: "Monaspace Argon";
