@@ -107,7 +107,7 @@
 
 #completions .HistoryCompletionSource table {
     width: 100%;
-    font-size: 9pt;
+    /* font-size: 9pt; */
     border-spacing: 0;
     table-layout: fixed;
 }
@@ -134,7 +134,7 @@
 }
 #completions table tr.BufferCompletionOption td.content {
   width: auto;
-  white-space: pre-line;
+  white-space: wrap;
 }
 
 #completions table tr .title, #completions table tr td.excmd {
@@ -152,7 +152,7 @@
 }
 
 #completions table tr {
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -194,14 +194,14 @@
 
 #completions .focused {
     background: var(--currentline);
-    color: var(--blue);
+    /* color: var(--blue); */
     font-weight: bold;
 }
-#completions .focused td.title {
+#completions .focused td.title, #completions .focused td.excmd {
   color: var(--tridactyl-completions-title-focused);
 }
 
-#completions .focused .url {
+#completions .focused td.url, #completions .focused td.documentation {
     background: var(--currentline);
     color: var(--tridactyl-completions-url);
 }
