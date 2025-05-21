@@ -129,8 +129,13 @@
     table-layout: unset;
 }
 
+#completions tr.BufferCompletionOption td.content {
+  width: auto;
+  white-space: pre-line;
+}
+
 #completions table tr .title, #completions table tr td.excmd {
-    width: 50%;
+    /* width: 50%; */
     padding-left: 1rem;
     color: var(--tridactyl-completions-title);
     
@@ -138,6 +143,9 @@
 
 #completions table tr .content, #completions table tr td.documentation {
   padding-right: 1rem;
+}
+#completions table tr.ExcmdCompletionOption .documentation {
+  white-space: pre-line;
 }
 
 #completions table tr {
@@ -147,7 +155,7 @@
 }
 
 #completions table tr td {
-  padding: .5rem 0;
+  padding: .25rem 0;
 }
 
 #completions .sectionHeader {
