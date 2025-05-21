@@ -129,7 +129,10 @@
     table-layout: unset;
 }
 
-#completions tr.BufferCompletionOption td.content {
+#completions table tr.BufferCompletionOption {
+  white-space: pre-line;
+}
+#completions table tr.BufferCompletionOption td.content {
   width: auto;
   white-space: pre-line;
 }
@@ -191,7 +194,7 @@
 
 #completions .focused {
     background: var(--currentline);
-    /* color: var(--blue); */
+    color: var(--blue);
     font-weight: bold;
 }
 #completions .focused td.title {
