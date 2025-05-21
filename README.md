@@ -9,19 +9,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="./assets/catppuccin-latte.png"/>
+  <img src="./assets/screenshot-latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="./assets/catppuccin-frappe.png"/>
+  <img src="./assets/screenshot-frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="./assets/catppuccin-macchiato.png"/>
+  <img src="./assets/screenshot-macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="./assets/catppuccin-mocha.png"/>
+  <img src="./assets/screenshot-mocha.png"/>
 </details>
 
 ## Install
