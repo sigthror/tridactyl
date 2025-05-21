@@ -1,4 +1,4 @@
-:root {    /* Catppuccin Colors */
+:root {    /* Catppuccin Frappe Colors */
     --bg: #303446;
     --currentline: #292c3c;
     --fg: #c6d0f5;
@@ -43,11 +43,18 @@
     --tridactyl-hint-active-outline: none;
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
+
+    /* Element Colors */
+    --tridactyl-border: var(--lavender);
+    --tridactyl-completions-title: var(--blue);
+    --tridactyl-completions-title-focused: var(--pink);
+    --tridactyl-completions-url: var(--green);
+    --tridactyl-completions-header: var(--peach);
 }
 
 #command-line-holder {
     order: 1;
-    border: 2px solid var(--lavender);
+    border: 2px solid var(--tridactyl-border);
     background: var(--tridactyl-bg);
 }
 
@@ -125,7 +132,8 @@
 #completions table tr .title, #completions table tr td.excmd {
     width: 50%;
     padding-left: 1rem;
-    color: var(--blue);
+    color: var(--tridactyl-completions-title);
+    
 }
 
 #completions table tr .content, #completions table tr td.documentation {
@@ -149,7 +157,7 @@
     padding: 1rem 1rem 0 !important;
     padding-left: unset;
     padding-bottom: 0.2rem;
-    color: var(--peach);
+    color: var(--tridactyl-completions-header);
 }
 
 #cmdline_iframe {
@@ -179,10 +187,10 @@
     font-weight: bold;
 }
 #completions .focused td.title {
-  color: var(--pink);
+  color: var(--tridactyl-completions-title-focused);
 }
 
 #completions .focused .url {
     background: var(--currentline);
-    color: var(--green);
+    color: var(--tridactyl-completions-url);
 }
