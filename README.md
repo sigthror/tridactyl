@@ -1,7 +1,9 @@
 # catppuccin-tridactyl
 
+Catppuccin theme for Tridactyl
+
 ## Install
-`:colourscheme --url https://raw.githubusercontent.com/lonepie/catppuccin-tridactyl/main/catppuccin.css catppuccin`
+`:colourscheme --url https://raw.githubusercontent.com/devnullvoid/catppuccin-tridactyl/main/catppuccin.css catppuccin`
 
 ## Customization
 - Fork the repo
@@ -19,4 +21,5 @@ Change the font:
 `--font: "FiraCode Nerd Font Mono";` Change to `--font: "font-of-your-choice";`
 
 ## Credit
-Based on [base16-tridactyl](https://github.com/bezmi/base16-tridactyl)
+[base16-tridactyl](https://github.com/bezmi/base16-tridactyl)
+[Cattpuccin Color Scheme](https://catppuccin.com)
