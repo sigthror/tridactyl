@@ -130,11 +130,10 @@
 }
 
 #completions table tr.BufferCompletionOption {
-  white-space: pre-line;
+  white-space: wrap;
 }
 #completions table tr.BufferCompletionOption td.content {
   width: auto;
-  white-space: wrap;
 }
 
 #completions table tr .title, #completions table tr td.excmd {
@@ -201,7 +200,7 @@
   color: var(--tridactyl-completions-title-focused);
 }
 
-#completions .focused td.url, #completions .focused td.documentation {
+#completions .focused .url, #completions .focused td.documentation, #completions .focused td.content {
     background: var(--currentline);
     color: var(--tridactyl-completions-url);
 }
