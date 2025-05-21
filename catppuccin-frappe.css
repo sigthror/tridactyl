@@ -107,7 +107,7 @@
 
 #completions .HistoryCompletionSource table {
     width: 100%;
-    font-size: 9pt;
+    /* font-size: 9pt; */
     border-spacing: 0;
     table-layout: fixed;
 }
@@ -129,8 +129,15 @@
     table-layout: unset;
 }
 
+#completions table tr.BufferCompletionOption {
+  white-space: wrap;
+}
+#completions table tr.BufferCompletionOption td.content {
+  width: auto;
+}
+
 #completions table tr .title, #completions table tr td.excmd {
-    width: 50%;
+    /* width: 50%; */
     padding-left: 1rem;
     color: var(--tridactyl-completions-title);
     
@@ -139,15 +146,18 @@
 #completions table tr .content, #completions table tr td.documentation {
   padding-right: 1rem;
 }
+#completions table tr.ExcmdCompletionOption .documentation {
+  white-space: pre-line;
+}
 
 #completions table tr {
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 #completions table tr td {
-  padding: .5rem 0;
+  padding: .25rem 0;
 }
 
 #completions .sectionHeader {
@@ -186,11 +196,11 @@
     /* color: var(--blue); */
     font-weight: bold;
 }
-#completions .focused td.title {
+#completions .focused td.title, #completions .focused td.excmd {
   color: var(--tridactyl-completions-title-focused);
 }
 
-#completions .focused .url {
+#completions .focused .url, #completions .focused td.documentation, #completions .focused td.content {
     background: var(--currentline);
     color: var(--tridactyl-completions-url);
 }
