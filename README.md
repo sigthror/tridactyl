@@ -1,6 +1,28 @@
-# catppuccin-tridactyl
+<h3 align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	Catppuccin for <a href="https://github.com/tridactyl/tridactyl">Tridactyl</a>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-Catppuccin theme for Tridactyl
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="./assets/catppuccin-latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="./assets/catppuccin-frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="./assets/catppuccin-macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="./assets/catppuccin-mocha.png"/>
+</details>
 
 ## Install
 `:colourscheme --url https://raw.githubusercontent.com/devnullvoid/catppuccin-tridactyl/main/catppuccin-<flavor>.css catppuccin-<flavor>`
@@ -16,16 +38,18 @@ Catppuccin theme for Tridactyl
 /* Changing color assigned to CSS Variable */
 --tridactyl-url-fg: var(--rosewater);
 --tridactyl-border: var(--lavender);
+
+/* Change font used throughout */
+--font: monospace;
+
 ```
-Change `--rosewater` and `--lavender` to the colors you prefer.
+- Change `--rosewater` and `--lavender` to the colors you prefer.
+- Change `monospace` to your preferred font, i.e. `"Fira Code"`
 
 Available colors correspond to [Catppuccin Palette](https://catppuccin.com/palette): pink, purple, red, etc...
 
-Change the font:
 
-`--font: monospace;` Change to `--font: "FiraCode Nerd Font Mono";`
-
-## Credit
+## Thanks
 [base16-tridactyl](https://github.com/bezmi/base16-tridactyl)
 
 [Cattpuccin Color Scheme](https://catppuccin.com)
