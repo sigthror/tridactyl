@@ -35,6 +35,7 @@
     --font: "Monaspace Argon";
 
     /* Tridactyl Theme Variables - Mapped to Catppuccin Colors */
+    --currentline: var(--mantle);
     --tridactyl-fg: var(--text);
     --tridactyl-bg: var(--base);
     --tridactyl-url-fg: var(--rosewater);

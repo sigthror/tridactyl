@@ -40,7 +40,7 @@ To apply a Catppuccin theme to Tridactyl, you'll use the `:colourscheme` command
 For example, to set the **Mocha** theme:
 
 ```
-:colourscheme --url https://raw.githubusercontent.com/devnullvoid/tridactyl/main/catppuccin-mocha.css catppuccin-mocha
+:colourscheme --url https://raw.githubusercontent.com/devnullvoid/tridactyl/main/themes/catppuccin-mocha.css catppuccin-mocha
 ```
 
 Once executed, the theme should apply instantly.
@@ -79,7 +79,7 @@ Want to tweak the colors or fonts to perfectly match your setup? It's easy to cr
     After saving your changes to the CSS file in your forked repository, use the `:colourscheme` command, but point the `--url` to *your* repository and give your custom theme a unique name (e.g., appending `_custom`):
 
     ```
-    :colourscheme --url [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/tridactyl/main/catppuccin-<flavor>.css catppuccin-<flavor>_custom
+    :colourscheme --url [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/tridactyl/main/themes/catppuccin-<flavor>.css catppuccin-<flavor>_custom
     ```
     Remember to replace `<your-username>` with your GitHub username and `<flavor>` with the base flavor you modified.
 
