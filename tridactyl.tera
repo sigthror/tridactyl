@@ -1,43 +1,71 @@
-:root {    /* Catppuccin Macchiato Colors */
-    --bg: #24273a;
-    --currentline: #1e2030;
-    --fg: #cad3f5;
-    --comment: #6e738d;
-    --flamingo: #f0c6c6;
-    --mauve: #c6a0f6;
-    --pink: #f5bde6;
-    --maroon: #ee99a0;
-    --red: #ed8796;
-    --peach: #f5a97f;
-    --yellow: #eed49f;
-    --green: #a6da95;
-    --teal: #8bd5ca;
-    --blue: #8aadf4;
-    --sky: #91d7e3;
-    --lavender: #b7bdf8;
-    --rosewater: #f4dbd6;
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+  hex_format: "#{{r}}{{g}}{{b}}"
+  filename: "themes/catppuccin-{{flavor.identifier}}.css"
+app: "Tridactyl"
+author: "devnullvoid"
+---
+/*
+  Catppuccin {{flavor.identifier | capitalize }} for {{app}}
+  by {{author}}
+*/
+:root {
+    /* Catppuccin {{ flavor.identifier | capitalize }} Palette Colors */
+    --rosewater: {{ rosewater.hex }};
+    --flamingo: {{ flamingo.hex }};
+    --pink: {{ pink.hex }};
+    --mauve: {{ mauve.hex }};
+    --red: {{ red.hex }};
+    --maroon: {{ maroon.hex }};
+    --peach: {{ peach.hex }};
+    --yellow: {{ yellow.hex }};
+    --green: {{ green.hex }};
+    --teal: {{ teal.hex }};
+    --sky: {{ sky.hex }};
+    --sapphire: {{ sapphire.hex }};
+    --blue: {{ blue.hex }};
+    --lavender: {{ lavender.hex }};
+    --text: {{ text.hex }};
+    --subtext1: {{ subtext1.hex }};
+    --subtext0: {{ subtext0.hex }};
+    --overlay2: {{ overlay2.hex }};
+    --overlay1: {{ overlay1.hex }};
+    --overlay0: {{ overlay0.hex }};
+    --surface2: {{ surface2.hex }};
+    --surface1: {{ surface1.hex }};
+    --surface0: {{ surface0.hex }};
+    --base: {{ base.hex }};
+    --mantle: {{ mantle.hex }};
+    --crust: {{ crust.hex }};
 
-    --font: monospace; /*"FiraCode Nerd Font Mono";*/
+    /* Custom Font */
+    --font: monospace; /* Default font, can be overridden directly in a forked repo CSS */
 
-    /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
-    --tridactyl-fg: var(--fg);
-    --tridactyl-bg: var(--bg);
+    /* Tridactyl Theme Variables - Mapped to Catppuccin Colors */
+    --tridactyl-fg: var(--text);
+    --tridactyl-bg: var(--base);
     --tridactyl-url-fg: var(--rosewater);
-    --tridactyl-url-bg: var(--bg);
-    --tridactyl-highlight-box-bg: var(--currentline);
-    --tridactyl-highlight-box-fg: var(--fg);
-    --tridactyl-of-fg: var(--fg);
-    --tridactyl-of-bg: var(--currentline);
-    --tridactyl-cmdl-fg: var(--bg);
+    --tridactyl-url-bg: var(--base);
+    --tridactyl-highlight-box-bg: var(--mantle);
+    --tridactyl-highlight-box-fg: var(--text);
+    --tridactyl-of-fg: var(--text);
+    --tridactyl-of-bg: var(--mantle);
+
+    /* Command Line Specific */
+    --tridactyl-cmdl-fg: var(--text);
+    --tridactyl-cmdl-bg: var(--base);
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
 
     /* Hint character tags */
-    --tridactyl-hintspan-fg: var(--bg) !important;
+    --tridactyl-hintspan-fg: var(--base) !important;
     --tridactyl-hintspan-bg: var(--green) !important;
 
-    /* Element Highlights */
+    /* Element Highlights (using "none" which is fine to keep) */
     --tridactyl-hint-active-fg: none;
     --tridactyl-hint-active-bg: none;
     --tridactyl-hint-active-outline: none;
@@ -51,7 +79,6 @@
     --tridactyl-completions-url: var(--green);
     --tridactyl-completions-header: var(--peach);
 }
-
 #command-line-holder {
     order: 1;
     border: 2px solid var(--tridactyl-border);

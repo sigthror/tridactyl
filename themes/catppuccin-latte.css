@@ -1,43 +1,61 @@
-:root {    /* Latte Catppuccin Colors */
-    --bg: #eff1f5;
-    --currentline: #e6e9ef;
-    --fg: #4c4f69;
-    --comment: #6c6f85;
+/*
+  Catppuccin Latte for Tridactyl
+  by devnullvoid
+*/
+:root {
+    /* Catppuccin Latte Palette Colors */
+    --rosewater: #dc8a78;
     --flamingo: #dd7878;
-    --mauve: #8839ef;
     --pink: #ea76cb;
-    --maroon: #e64553;
+    --mauve: #8839ef;
     --red: #d20f39;
+    --maroon: #e64553;
     --peach: #fe640b;
     --yellow: #df8e1d;
     --green: #40a02b;
     --teal: #179299;
-    --blue: #1e66f5;
     --sky: #04a5e5;
+    --sapphire: #209fb5;
+    --blue: #1e66f5;
     --lavender: #7287fd;
-    --rosewater: #dc8a78;
+    --text: #4c4f69;
+    --subtext1: #5c5f77;
+    --subtext0: #6c6f85;
+    --overlay2: #7c7f93;
+    --overlay1: #8c8fa1;
+    --overlay0: #9ca0b0;
+    --surface2: #acb0be;
+    --surface1: #bcc0cc;
+    --surface0: #ccd0da;
+    --base: #eff1f5;
+    --mantle: #e6e9ef;
+    --crust: #dce0e8;
 
-    --font: monospace; /*"FiraCode Nerd Font Mono";*/
+    /* Custom Font */
+    --font: monospace; /* Default font, can be overridden directly in a forked repo CSS */
 
-    /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
-    --tridactyl-fg: var(--fg);
-    --tridactyl-bg: var(--bg);
+    /* Tridactyl Theme Variables - Mapped to Catppuccin Colors */
+    --tridactyl-fg: var(--text);
+    --tridactyl-bg: var(--base);
     --tridactyl-url-fg: var(--rosewater);
-    --tridactyl-url-bg: var(--bg);
-    --tridactyl-highlight-box-bg: var(--currentline);
-    --tridactyl-highlight-box-fg: var(--fg);
-    --tridactyl-of-fg: var(--fg);
-    --tridactyl-of-bg: var(--currentline);
-    --tridactyl-cmdl-fg: var(--bg);
+    --tridactyl-url-bg: var(--base);
+    --tridactyl-highlight-box-bg: var(--mantle);
+    --tridactyl-highlight-box-fg: var(--text);
+    --tridactyl-of-fg: var(--text);
+    --tridactyl-of-bg: var(--mantle);
+
+    /* Command Line Specific */
+    --tridactyl-cmdl-fg: var(--text);
+    --tridactyl-cmdl-bg: var(--base);
     --tridactyl-cmdl-font-family: var(--font);
     --tridactyl-cmplt-font-family: var(--font);
     --tridactyl-hintspan-font-family: var(--font);
 
     /* Hint character tags */
-    --tridactyl-hintspan-fg: var(--bg) !important;
+    --tridactyl-hintspan-fg: var(--base) !important;
     --tridactyl-hintspan-bg: var(--green) !important;
 
-    /* Element Highlights */
+    /* Element Highlights (using "none" which is fine to keep) */
     --tridactyl-hint-active-fg: none;
     --tridactyl-hint-active-bg: none;
     --tridactyl-hint-active-outline: none;
@@ -51,7 +69,6 @@
     --tridactyl-completions-url: var(--green);
     --tridactyl-completions-header: var(--peach);
 }
-
 #command-line-holder {
     order: 1;
     border: 2px solid var(--tridactyl-border);
