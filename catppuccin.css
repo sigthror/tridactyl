@@ -77,6 +77,10 @@
     background: var(--tridactyl-bg);
 }
 
+#command-line-holder #tridactyl-colon {
+    display: none;
+}
+
 #tridactyl-input {
     padding: 1rem;
     color: var(--tridactyl-fg);
