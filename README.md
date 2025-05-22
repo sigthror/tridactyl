@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/devnullvoid/catppuccin-tridactyl/stargazers"><img src="https://img.shields.io/github/stars/devnullvoid/catppuccin-tridactyl?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/devnullvoid/catppuccin-tridactyl/issues"><img src="https://img.shields.io/github/issues/devnullvoid/catppuccin-tridactyl?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/devnullvoid/catppuccin-tridactyl/contributors"><img src="https://img.shields.io/github/contributors/devnullvoid/catppuccin-tridactyl?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/devnullvoid/tridactyl/stargazers"><img src="https://img.shields.io/github/stars/devnullvoid/tridactyl?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/devnullvoid/tridactyl/issues"><img src="https://img.shields.io/github/issues/devnullvoid/tridactyl?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/devnullvoid/tridactyl/contributors"><img src="https://img.shields.io/github/contributors/devnullvoid/tridactyl?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ To apply a Catppuccin theme to Tridactyl, you'll use the `:colourscheme` command
 For example, to set the **Mocha** theme:
 
 ```
-:colourscheme --url https://raw.githubusercontent.com/devnullvoid/catppuccin-tridactyl/main/catppuccin-mocha.css catppuccin-mocha
+:colourscheme --url https://raw.githubusercontent.com/devnullvoid/tridactyl/main/catppuccin-mocha.css catppuccin-mocha
 ```
 
 Once executed, the theme should apply instantly.
@@ -51,7 +51,7 @@ Once executed, the theme should apply instantly.
 
 Want to tweak the colors or fonts to perfectly match your setup? It's easy to create your own custom version of the theme.
 
-1.  **Fork the repository:** Start by forking the `devnullvoid/catppuccin-tridactyl` repository on GitHub to your own account.
+1.  **Fork the repository:** Start by forking the `devnullvoid/tridactyl` repository on GitHub to your own account.
 2.  **Edit the CSS variables:**
     Navigate to the `catppuccin-<flavor>.css` file (e.g., `catppuccin-mocha.css`) within your forked repository. You can edit this file directly on GitHub or clone the repository to your local machine.
 
@@ -79,15 +79,13 @@ Want to tweak the colors or fonts to perfectly match your setup? It's easy to cr
     After saving your changes to the CSS file in your forked repository, use the `:colourscheme` command, but point the `--url` to *your* repository and give your custom theme a unique name (e.g., appending `_custom`):
 
     ```
-    :colourscheme --url [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/catppuccin-tridactyl/main/catppuccin-<flavor>.css catppuccin-<flavor>_custom
+    :colourscheme --url [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/tridactyl/main/catppuccin-<flavor>.css catppuccin-<flavor>_custom
     ```
     Remember to replace `<your-username>` with your GitHub username and `<flavor>` with the base flavor you modified.
 
 ## 💝 Thanks to
 
-- [Jonathan Rogers](https://github.com/devnullvoid)
-- [Cattpuccin Color Scheme](https://catppuccin.com)
-- [base16-tridactyl](https://github.com/bezmi/base16-tridactyl)
+- [devnullvoid](https://github.com/devnullvoid)
 
 &nbsp;
 
