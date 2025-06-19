@@ -141,7 +141,10 @@
     min-height: unset;
 }
 
-#completions table tr td.prefix,#completions table tr td.privatewindow,#completions table tr td.container,#completions table tr td.icon {
+#completions table tr td.prefix,
+#completions table tr td.privatewindow,
+#completions table tr td.container,
+#completions table tr td.icon {
     display: none;
 }
 
@@ -153,24 +156,25 @@
 }
 
 #completions table tr.BufferCompletionOption {
-  white-space: wrap;
+    white-space: wrap;
 }
 #completions table tr.BufferCompletionOption td.content {
-  width: auto;
+    width: auto;
 }
 
-#completions table tr .title, #completions table tr td.excmd {
+#completions table tr .title,
+#completions table tr td.excmd {
     /* width: 50%; */
     padding-left: 1rem;
     color: var(--tridactyl-completions-title);
-    
 }
 
-#completions table tr .content, #completions table tr td.documentation {
-  padding-right: 1rem;
+#completions table tr .content,
+#completions table tr td.documentation {
+    padding-right: 1rem;
 }
 #completions table tr.ExcmdCompletionOption .documentation {
-  white-space: pre-line;
+    white-space: pre-line;
 }
 
 #completions table tr {
@@ -180,7 +184,7 @@
 }
 
 #completions table tr td {
-  padding: .25rem 0;
+    padding: 0.25rem 0;
 }
 
 #completions .sectionHeader {
@@ -208,7 +212,7 @@
     bottom: 0 !important;
     background: var(--tridactyl-bg) !important;
     border: unset !important;
-    border: 1px var(--purple) solid !important;
+    border: 1px var(--mauve) solid !important;
     font-size: 12pt !important;
     /*font-weight: 200 !important;*/
     padding: 0.8ex !important;
@@ -219,11 +223,14 @@
     /* color: var(--blue); */
     font-weight: bold;
 }
-#completions .focused td.title, #completions .focused td.excmd {
-  color: var(--tridactyl-completions-title-focused);
+#completions .focused td.title,
+#completions .focused td.excmd {
+    color: var(--tridactyl-completions-title-focused);
 }
 
-#completions .focused .url, #completions .focused td.documentation, #completions .focused td.content {
+#completions .focused .url,
+#completions .focused td.documentation,
+#completions .focused td.content {
     background: var(--currentline);
     color: var(--tridactyl-completions-url);
 }

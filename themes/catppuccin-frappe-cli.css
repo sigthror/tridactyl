@@ -1,43 +1,42 @@
+/*
+  Catppuccin Frappe CLI for Tridactyl
+  by devnullvoid
+*/
 :root {
-    /* Core Backgrounds */
-    --base: #1e1e2e;
-    --mantle: #181825;
-    --crust: #11111b;
-
-    /* Text Colors */
-    --text: #cdd6f4;
-    --subtext0: #a6adc8;
-    --subtext1: #bac2de;
-
-    /* Surface Colors */
-    --surface0: #313244;
-    --surface1: #45475a;
-    --surface2: #585b70;
-
-    /* Overlay Colors */
-    --overlay0: #6c7086;
-    --overlay1: #7f849c;
-    --overlay2: #9399b2;
-
-    /* Accent Colors */
-    --blue: #89b4fa;
-    --lavender: #b4befe;
-    --sapphire: #74c7ec;
-    --sky: #89dceb;
-    --teal: #94e2d5;
-    --green: #a6e3a1;
-    --yellow: #f9e2af;
-    --peach: #fab387;
-    --maroon: #eba0ac;
-    --red: #f38ba8;
-    --mauve: #cba6f7;
-    --pink: #f5c2e7;
-    --flamingo: #f2cdcd;
-    --rosewater: #f5e0dc;
+    /* Catppuccin Frappe Palette Colors */
+    --rosewater: #f2d5cf;
+    --flamingo: #eebebe;
+    --pink: #f4b8e4;
+    --mauve: #ca9ee6;
+    --red: #e78284;
+    --maroon: #ea999c;
+    --peach: #ef9f76;
+    --yellow: #e5c890;
+    --green: #a6d189;
+    --teal: #81c8be;
+    --sky: #99d1db;
+    --sapphire: #85c1dc;
+    --blue: #8caaee;
+    --lavender: #babbf1;
+    --text: #c6d0f5;
+    --subtext1: #b5bfe2;
+    --subtext0: #a5adce;
+    --overlay2: #949cbb;
+    --overlay1: #838ba7;
+    --overlay0: #737994;
+    --surface2: #626880;
+    --surface1: #51576d;
+    --surface0: #414559;
+    --base: #303446;
+    --mantle: #292c3c;
+    --crust: #232634;
 
     /* Generic */
-    --tridactyl-font-family: "Monaspace Krypton", monospace;
-    --tridactyl-font-family-sans: "Monaspace Neon", sans-serif;
+    --tridactyl-font-family: "Monaspace Krypton", "JetBrains Mono Nerd Font", "SF Mono", monospace;
+    --tridactyl-font-family-sans: "Monaspace Neon, "SF Pro", sans-serif;
+    --tridactyl-cmdl-font-family: var(--tridactyl-font-family);
+    --tridactyl-cmplt-font-family: var(--tridactyl-font-family);
+    --tridactyl-hintspan-font-family: var(--tridactyl-font-family);
     --tridactyl-font-size: 12pt;
     --tridactyl-small-font-size: calc(var(--tridactyl-font-size) * 0.75);
     --tridactyl-bg: var(--base);
@@ -64,8 +63,8 @@
     --tridactyl-hintspan-font-weight: bold;
     --tridactyl-hintspan-fg: var(--base);
     --tridactyl-hintspan-pressed-fg: var(--tridactyl-hintspan-fg);
-    --tridactyl-hintspan-bg: var(--red);
-    --tridactyl-hintspan-border-color: ButtonShadow;
+    --tridactyl-hintspan-bg: var(--blue);
+    --tridactyl-hintspan-border-color: var(--blue);
     --tridactyl-hintspan-border-width: 0px;
     --tridactyl-hintspan-border-style: solid;
     --tridactyl-hintspan-js-background: var(--overlay1);
@@ -73,10 +72,10 @@
     /* Element highlights */
     --tridactyl-hint-active-fg: var(--base);
     --tridactyl-hint-active-bg: var(--green);
-    --tridactyl-hint-active-outline: 1px solid var(--red);
+    --tridactyl-hint-active-outline: 1px solid var(--blue);
 
-    --tridactyl-hint-bg: var(--yellow);
-    --tridactyl-hint-outline: 1px solid var(--peach);
+    --tridactyl-hint-bg: var(--blue);
+    --tridactyl-hint-outline: 1px solid var(--blue);
 
     /* :viewsource */
     --tridactyl-vs-bg: var(--tridactyl-bg);

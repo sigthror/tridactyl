@@ -45,6 +45,22 @@ For example, to set the **Mocha** theme:
 
 Once executed, the theme should apply instantly.
 
+### CLI Alternative Theme
+
+We also provide a **CLI-friendly alternative** based on the default Tridactyl theme but with Catppuccin colors. This theme maintains the familiar look and feel of the original Tridactyl interface while incorporating the beautiful Catppuccin color palette. CLI users will feel right at home with this theme.
+
+To use the CLI version, simply append `-cli` to the filename:
+
+```
+:colourscheme --url https://raw.githubusercontent.com/devnullvoid/tridactyl/main/themes/catppuccin-mocha-cli.css catppuccin-mocha-cli
+```
+
+The CLI theme is available for all flavors:
+- `catppuccin-latte-cli.css`
+- `catppuccin-frappe-cli.css`
+- `catppuccin-macchiato-cli.css`
+- `catppuccin-mocha-cli.css`
+
 ---
 
 ## Customization

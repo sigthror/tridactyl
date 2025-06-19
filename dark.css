@@ -35,6 +35,12 @@
     --flamingo: #f2cdcd;
     --rosewater: #f5e0dc;
 
+    --font: "Monaspace Argon";
+
+    --tridactyl-cmdl-font-family: var(--font);
+    --tridactyl-cmplt-font-family: var(--font);
+    --tridactyl-hintspan-font-family: var(--font);
+
     /* {{{ photon-colours */
 
     /* From https://github.com/overdodactyl/ShadowFox/blob/7dbe9343da87bde804e8fb88dd3b5eaaeb4817b2/css/common-files/color_variables.css */
