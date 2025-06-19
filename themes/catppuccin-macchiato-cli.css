@@ -32,8 +32,8 @@
     --crust: #181926;
 
     /* Generic */
-    --tridactyl-font-family: "Monaspace Krypton", "JetBrains Mono Nerd Font", "SF Mono", monospace;
-    --tridactyl-font-family-sans: "Monaspace Neon, "SF Pro", sans-serif;
+    --tridactyl-font-family: "Monaspace Krypton", "JetBrainsMono Nerd Font", "SF Mono", monospace;
+    --tridactyl-font-family-sans: "Monaspace Neon", "SF Pro", sans-serif;
     --tridactyl-cmdl-font-family: var(--tridactyl-font-family);
     --tridactyl-cmplt-font-family: var(--tridactyl-font-family);
     --tridactyl-hintspan-font-family: var(--tridactyl-font-family);
