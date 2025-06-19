@@ -34,9 +34,9 @@
     /* Generic */
     --tridactyl-font-family: "Monaspace Krypton", "JetBrainsMono Nerd Font", "SF Mono", monospace;
     --tridactyl-font-family-sans: "Monaspace Neon", "SF Pro", sans-serif;
-    --tridactyl-cmdl-font-family: var(--tridactyl-font-family);
-    --tridactyl-cmplt-font-family: var(--tridactyl-font-family);
-    --tridactyl-hintspan-font-family: var(--tridactyl-font-family);
+    --tridactyl-cmdl-font-family: var(--tridactyl-font-family) !important;
+    --tridactyl-cmplt-font-family: var(--tridactyl-font-family) !important;
+    --tridactyl-hintspan-font-family: var(--tridactyl-font-family) !important;
     --tridactyl-font-size: 12pt;
     --tridactyl-small-font-size: calc(var(--tridactyl-font-size) * 0.75);
     --tridactyl-bg: var(--base);
