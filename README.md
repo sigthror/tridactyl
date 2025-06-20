@@ -25,18 +25,34 @@
 <details>
 <summary>🌻 Latte</summary>
   <img src="./assets/latte.webp"/>
+  <br/>
+  <strong>CLI Version</strong>
+  <br/>
+  <img src="./assets/cli-latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
   <img src="./assets/frappe.webp"/>
+  <br/>
+  <strong>CLI Version</strong>
+  <br/>
+  <img src="./assets/cli-frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
   <img src="./assets/macchiato.webp"/>
+  <br/>
+  <strong>CLI Version</strong>
+  <br/>
+  <img src="./assets/cli-macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
   <img src="./assets/mocha.webp"/>
+  <br/>
+  <strong>CLI Version</strong>
+  <br/>
+  <img src="./assets/cli-mocha.webp"/>
 </details>
 
 ## Usage
