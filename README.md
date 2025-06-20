@@ -15,6 +15,11 @@
   <img src="./assets/preview.webp"/>
 </p>
 
+## CLI Theme
+<p align="center">
+  <img src="./assets/cli-preview.webp"/>
+</p>
+
 ## Previews
 
 <details>
